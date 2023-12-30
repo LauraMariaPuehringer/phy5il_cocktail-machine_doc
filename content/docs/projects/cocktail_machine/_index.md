@@ -1,9 +1,9 @@
 ---
-title: Our project name
+title: Cocktail Machine
 type: docs
 ---
 
-# The project name
+# Liquid Rythm Station - Chindogu Cocktail Machine
 
 ## Abstract
 
