@@ -83,9 +83,11 @@ On the second try the concept of [peristaltic](https://www.albinpump.com/de-at/n
 The process was:
 1. testing the power/strength of the peristaltic pumps
 2. testing the resistance of the sliders
-3. ... bitte weiter schreiben ;)
-
-__TODO:__ hier den aufbau der komponenten nochmal erklären pls (oder gerne auch nochmal schöner zeichnen xd)
+3. measured the pins on the sliders
+4. tested analog output on the arduino board
+5. measured the mosfet in/outputs and tested them with LED's
+6. prototyping the electrical circuit with one pump
+7. construction of the layout with 3 circuits
 
 {{< figure src="aufbau.jpg" alt="a scribble of a arduino board">}}
 
