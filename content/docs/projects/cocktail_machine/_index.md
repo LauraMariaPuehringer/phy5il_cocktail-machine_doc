@@ -7,38 +7,32 @@ type: docs
 ## Chindogu Cocktail Machine
 # 🍹 🍋 🌴 
 
-## Abstract
+## Abstract 🙌🏻
 
 The __Liquid Rhythm Station__ is a mobile Cocktail Machine. It can mix cocktails with a maximum of three ingredients on the go 💨<br>  
 {{< video src="first_try.gif" autoplay="true" loop="true" muted="true" >}}
 
-## Introduction
-
-*A detailed description of the concept and sketches of the planned implementation.*
-
-*If a section grows too large or handles a very specific part of the project it can be put into [subpages]({{< ref "roboexotica" >}}).*
+## Introduction 🎬
 
 The main concept was, to build a carriable cocktail machine with interaction🍹 
 
 Some use cases could be a (home)party, a festival, a concert and many more situtations, where alcohol is going to be consumed... 🍸
 
-### Chindogu
+### Chindogu 💭
 To make it more *chindogu*, the radius of carrying around should have been limited to the length of an extension cable.🔌Furthermore the weight was also a factor for making it *chindogu*-like.
 
-### Interaction
+### Interaction 🦾
 At the beginning the interaction was planned to happen through a button that needs to be pushed for pouring out liquid. The longer the buttons get pushed, the more liquid comes out. The problem was, that the ratio of different liquids couldn't have been controlled, so the team decided to choose sliders instead of a button -- one slider per bottle. With that the idea of creating something similar to a DJ mixing desk was born! 🪩
 
-### Pouring out liquids
+### Pouring out liquids 💦
 The first idea was to pour out the liquids by using a pulley, which raises the bottles.
 But later the project team decided to use pumps instead of a pulley 🤓
 
-### Making it fancy
+### Making it fancy 🪄
 The project team has noticed, that the prototype strongly relies on the presentation and look. So the plan was to fix some RGB LED's at the crate. The team also had the idea to give some auditory feedback... 
 
 
-## Related work 
-
-*References to related concepts, projects, books, websites, stories, systems, fruits, etc. and their relation to the project at hand.*
+## Related work 🎶
 
 - The in german so called *Bauchladen* was the reference for making a __mobile__ cocktail machine.
 {{< figure src="ref_bauchladen.jpg" alt="A Man is carriyng a BBQ station in front of his chest.">}}
@@ -48,11 +42,9 @@ The project team has noticed, that the prototype strongly relies on the presenta
 {{< figure src="pumpe.jpg" alt="a cocktail machine using pumps">}}
 
 
-## Implementation 
+## Implementation 🤓
 
-*A detailed description of your prototyping process.*
-
-### Iteration №1 -- Pulley
+### Iteration №1 -- Pulley 🍾
 
 The first idea was to pour out the liquids by using a pulley and lifting the bottles.
 This idea has been discarded because of the weight of bottles. Also the possible splashing when pouring out the liquids has been considered 💦
@@ -60,7 +52,7 @@ This idea has been discarded because of the weight of bottles. Also the possible
 {{< figure src="pulley.JPG" alt="a cocktail machine using pumps">}}
 {{< video src="first_prototype.gif" autoplay="true" loop="true" muted="true" >}}
 
-### Iteration №2 -- Peristaltic Pump
+### Iteration №2 -- Peristaltic Pump ➿
 
 On the second try the concept of [peristaltic](https://www.albinpump.com/de-at/news/how-peristaltic-pumps-work) has been used for pouring out liquid. Using peristaltic pumps had the follwing advantages:
 - no splashing of liquids -- the hoses are 100% dense! 💦
@@ -80,14 +72,21 @@ On the second try the concept of [peristaltic](https://www.albinpump.com/de-at/n
 
 #### Electronical construction ⚡
 
-The process was:
-1. testing the power/strength of the peristaltic pumps
-2. testing the resistance of the sliders
-3. measured the pins on the sliders
-4. tested analog output on the arduino board
-5. measured the mosfet in/outputs and tested them with LED's
-6. prototyping the electrical circuit with one pump
-7. construction of the layout with 3 circuits
+The prototyping process was as follows:
+
+**1.** testing the power/strength of the peristaltic pumps
+
+**2.** testing the resistance of the sliders
+
+**3.** measured the pins on the sliders
+
+**4.** tested analog output on the arduino board
+
+**5.** measured the mosfet in/outputs and tested them with LED's
+
+**6.** prototyping the electrical circuit with one pump
+
+**7.** construction of the layout with 3 circuits
 
 {{< figure src="aufbau.jpg" alt="a scribble of a arduino board">}}
 
@@ -107,9 +106,7 @@ For making the crate *wearable*, a strap has been wrapped around the crate. The 
 
 {{< figure src="lukas.jpg" alt="a man who is carriyng a crate" caption="Lukas the carrier 👆🏻">}}
 
-## Conclusion
-
-*A reflection on your prototyping process and the project outcome. What happens to the prototype after the project?*
+## Conclusion 🏁
 
 After finishing the project, the project team travelled to Vienna and visited the [Roböxotica 2023 Festival]({{< ref "roboexotica" >}}). It was a great way to connect to other __makers!__ The team gained a lot of valuable feedback and inspiration! For example that it is a wellknown issue to pump __liquids inlcuding carbonic acid__ through hoses.
 
