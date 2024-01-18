@@ -1,4 +1,5 @@
-# Liquid Rythm Station - Chindogu Cocktail Machine
+# Liquid Rythm Station
+### Chindogu Cocktail Machine
 
 This repository contains the documentation of the prototyping process for the __Chindogu Cocktail Machine__.
 
